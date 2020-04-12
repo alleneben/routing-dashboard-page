@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background: gray;
+  flex: 0.7;
+  
+}
+nav {
+  background: yellow;
+  height: 50px;
+}
+aside {
+  background: green;
+  flex: 0.3;
+  height: 100vh;
+}
+
+.sidemain {
+  display: flex;
+}
+li {
+  cursor: pointer;
+  list-style: none;
+}
